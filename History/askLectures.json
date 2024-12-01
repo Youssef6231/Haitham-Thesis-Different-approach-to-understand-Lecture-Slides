@@ -1,0 +1,26 @@
+[
+  {
+    "question": "What is a relation",
+    "answer": "A relation in the context of databases refers to a table within a relational database. It consists of rows and columns where each row represents a record and each column represents an attribute or field."
+  },
+  {
+    "question": "Who is Messi",
+    "answer": "I don't know."
+  },
+  {
+    "question": "How to manipulate databases",
+    "answer": "To manipulate databases, you can use SQL (Structured Query Language) manipulation operations. These operations include:\n\n1. **Insert**: Insert one or more tuples into a base relation or view.\n2. **Update**: Change one or more tuples in a base relation or view.\n3. **Delete**: Delete one or more tuples from a base relation or view.\n\nYou can use these operations to add, modify, or remove data from your database tables. Additionally, local and global integrity constraints must be checked automatically by the system when executing manipulation operations to ensure data consistency and accuracy."
+  },
+  {
+    "question": "How to manipulate databases",
+    "answer": "To manipulate databases, you can use SQL (Structured Query Language) manipulation operations. These operations include:\n\n1. **Insert**: Insert one or more tuples into a base relation or view.\n2. **Update**: Change one or more tuples in a base relation or view.\n3. **Delete**: Delete one or more tuples from a base relation or view.\n\nYou can use these operations to add, modify, or remove data from your database tables. Additionally, local and global integrity constraints must be checked automatically by the system when executing manipulation operations to ensure data consistency and accuracy."
+  },
+  {
+    "question": "Who is Messi",
+    "answer": "I don't know."
+  },
+  {
+    "question": "Who is Messi",
+    "answer": "I don't know."
+  }
+]

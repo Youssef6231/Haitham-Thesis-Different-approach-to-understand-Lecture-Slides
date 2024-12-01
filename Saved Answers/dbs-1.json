@@ -1,0 +1,14 @@
+[
+	{
+		"question": "What is the advantage of using database systems compared to application-specific data management?",
+		"answer": "The advantage of using database systems compared to application-specific data management is that database systems provide a centralized and standardized way to manage data. This eliminates redundancy, reduces storage space wastage, prevents data loss, and allows for data security measures to be implemented more effectively. Additionally, database systems enable multiple users to access and manipulate data concurrently without interfering with each other, which is not easily achievable in application-specific data management setups."
+	},
+	{
+		"question": "What does data independence mean and how is it achieved?",
+		"answer": "Data independence means that changes to the conceptual schema do not affect other external schemata or application programs. It is achieved by separating the physical, logical, and external levels of the database, allowing changes at one level to be made without impacting the others."
+	},
+	{
+		"question": "Which are areas of application of database systems?",
+		"answer": "The areas of application of database systems include traditional applications like bookkeeping systems, order tracking systems, and library systems. Additionally, current applications encompass e-commerce, decision support systems (data warehouses, OLAP), NASA's Earth Observation System (petabyte databases), and data mining systems."
+	}
+]

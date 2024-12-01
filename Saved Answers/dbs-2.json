@@ -1,0 +1,22 @@
+[
+	{
+		"question": "What is a relation?",
+		"answer": "A relation in the context of databases refers to the way data is presented in tables. In a database, a relation represents a table where data is organized in rows and columns. Each row in a relation corresponds to a record, while each column represents a specific attribute or field of the data. This tabular format allows for the efficient organization and retrieval of data in a structured manner."
+	},
+	{
+		"question": "What are the defining properties of the relational algebra?",
+		"answer": "The defining properties of relational algebra include:\n\n1. Selection (\u03c3): Selects tuples that satisfy a given condition.\n2. Projection (\u03c0): Extracts only the specified columns from a relation.\n3. Union (\u222a): Combines two relations to include all tuples from both.\n4. Set Difference (-): Removes tuples found in both relations from the first.\n5. Cartesian Product (\u00d7): Combines all tuples from both relations.\n6. Join (\u22c8): Combines tuples from two relations based on a common attribute.\n7. Division (\u00f7): Selects tuples in one relation that are associated with all tuples in another relation.\n\nThese properties are fundamental to relational algebra operations and are used to manipulate and query relational databases."
+	},
+	{
+		"question": "How are objects from the real world represented in a relational database?",
+		"answer": "Objects from the real world are represented in a relational database through tables, where each object corresponds to a row in the table, and the attributes of the object are represented as columns. The relationships between objects are established through keys and foreign keys in different tables. This relational model allows for structured and organized storage of real-world data in a way that can be easily queried and manipulated."
+	},
+	{
+		"question": "How can tables in SQL be defined and manipulated?",
+		"answer": "Tables in SQL can be defined and manipulated using Data Definition Language (DDL) and Data Manipulation Language (DML) statements.\n\n1. **Defining Tables (DDL):** To create a table in SQL, you use the `CREATE TABLE` statement, where you define the table's structure, including column names, data types, constraints, etc.\n\n   Example:\n   ```sql\n   CREATE TABLE employees (\n       emp_id INT PRIMARY KEY,\n       emp_name VARCHAR(50),\n       emp_salary DECIMAL(10,2)\n   );\n   ```\n\n2. **Manipulating Tables (DML):** Once the table is defined, you can manipulate the data in the table using Data Manipulation Language (DML) statements like `INSERT`, `SELECT`, `UPDATE`, and `DELETE`.\n\n   - `INSERT`: Used to insert new records into the table.\n   - `SELECT`: Used to retrieve data from the table.\n   - `UPDATE`: Used to modify existing records in the table.\n   - `DELETE`: Used to remove records from the table.\n\n   Example:\n   ```sql\n   INSERT INTO employees (emp_id, emp_name, emp_salary) VALUES (1, 'John Doe', 50000.00);\n   \n   SELECT * FROM employees;\n   \n   UPDATE employees SET emp_salary = 55000.00 WHERE emp_id = 1;\n   \n   DELETE FROM employees WHERE emp_id = 1;\n   ```\n\nThese are some basic examples of how tables can be defined and manipulated in SQL using DDL and DML statements."
+	},
+	{
+		"question": "What are integrity constraints?",
+		"answer": "Integrity constraints are rules defined on a database schema that ensure the data stored in the database remains accurate, consistent, and reliable. These constraints help maintain the quality and reliability of the data by enforcing rules such as uniqueness, referential integrity, and data validation."
+	}
+]

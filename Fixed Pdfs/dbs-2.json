@@ -1,0 +1,17 @@
+[
+	{
+		"question": "What is a relation?"
+	},
+	{
+		"question": "What are the defining properties of the relational algebra?"
+	},
+	{
+		"question": "How are objects from the real world represented in a relational database?"
+	},
+	{
+		"question": "How can tables in SQL be defined and manipulated?"
+	},
+	{
+		"question": "What are integrity constraints?"
+	}
+]
